@@ -8,6 +8,8 @@ packages+=('openssh-server')
 packages+=('locales')
 # Needed for the init scripts
 packages+=('file')
+# Enable e.g. wget to verify certificates
+packages+=('ca-certificates')
 # This is inherited from the original script.
 # Apparently isc-dhcp-client doesn't work properly with ec2
 packages+=('dhcpcd')
